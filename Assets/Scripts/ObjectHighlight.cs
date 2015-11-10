@@ -16,7 +16,7 @@ public class ObjectHighlight : MonoBehaviour {
 		// Finds what book has been triggered
 		for (int i=0; i < bookshelfScript.bookSlots.Length; i++) 
 		{
-			if (this.gameObject.CompareTag (("Book ")) //+ i).ToString)) 
+			if (this.gameObject.CompareTag ("Book ")) //+ i).ToString)) 
 			{
 				id = i;
 			}
