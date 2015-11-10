@@ -9,13 +9,21 @@ public class FirstPersonController : MonoBehaviour {
 	private float verticalRotation = 0.0f;
 
 	public float UDConstraint = 60.0f; //Restricts the head from moving up more than 60 degrees
+
 	// Use this for initialization
 	void Start () {
-		Screen.lockCursor = true; 
+		Cursor.lockState = CursorLockMode.Locked;
+
+		// Hide the cursor
+		Cursor.visible = false;
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
+		Cursor.lockState = CursorLockMode.None;
+		Cursor.lockState = CursorLockMode.Locked;
 
 		//Rotation
 		float rotateLR = Input.GetAxis ("Mouse X") * mouseSpeed; //Gets mouse movement input
