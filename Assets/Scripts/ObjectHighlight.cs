@@ -3,29 +3,12 @@ using System.Collections;
 
 public class ObjectHighlight : MonoBehaviour {
 	private Color startcolor;
-	public bool bookInSlot; //Used to show when a bookshelf slot has a Book in it or not
-	private int id;
 	// Use this for initialization
 	void Start () {
 
 		//Get the array from the Bookshelf
-		GameObject bookshelf = GameObject.Find("Bookshelf"); //Locates the Bookshelf
+		/*GameObject bookshelf = GameObject.Find("Bookshelf"); //Locates the Bookshelf
 		Bookshelf bookshelfScript = bookshelf.GetComponent<Bookshelf>(); //Takes the Bookshelf script in the Bookshelf model
-
-		//GameObject thisBook = GameObject.Find ("Book (" + i + ")");
-		// Finds what book has been triggered
-		for (int i=0; i < bookshelfScript.bookSlots.Length; i++) 
-		{
-			if (this.gameObject.CompareTag ("Book ")) //+ i).ToString)) 
-			{
-				id = i;
-			}
-		}
-		/*for (int i=0; i < bookshelfScript.bookSlots.Length; i++) 
-		{
-			gameObject.CompareTag("Pick Up");
-		}*/
-
 
 		if (bookInSlot == true) 
 		{
@@ -37,7 +20,7 @@ public class ObjectHighlight : MonoBehaviour {
 			GetComponent<Renderer>().material.color = Color.clear;
 			//GetComponent<Renderer>().material.color = Color
 			//this.GetComponent<Renderer>(false);
-		}
+		}*/
 	}
 	
 	// Update is called once per frame

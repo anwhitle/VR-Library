@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BookshelfCreation.cs">
+    <Files>
+      <File FileName="Assets\Scripts\BookshelfCreation.cs" Line="18" Column="3" />
+      <File FileName="Assets\Scripts\Bookshelf.cs" Line="9" Column="14" />
+      <File FileName="Assets\Scripts\Book.cs" Line="9" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
