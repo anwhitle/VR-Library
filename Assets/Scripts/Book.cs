@@ -13,4 +13,10 @@ public class Book : MonoBehaviour {
 	void Update () {
 	
 	}
+
+	//Called by the Bookshelf script when the book is first created
+	public void setFileName (string newFileName)
+	{
+		fileName = newFileName;
+	}
 }
